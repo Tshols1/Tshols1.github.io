@@ -4,7 +4,7 @@
 <head>
   <style>
     h1 {
-      color: black;
+      color: white;
       font-weight: 800;
     }
 
@@ -16,14 +16,20 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: left;
+      backdrop-filter: blur(5px);
+      color: white;
+      font-weight: bold;
+      padding: 0 10vw;
   }
 
     .navbar {
       list-style-type: none;
       margin: 0;
-      padding: 0;
+      padding-left: 10vw;
       overflow: hidden;
       background-color: #333;
+      width: 100vw;
+      margin-left: -10vw;
     }
 
     .navbar li {
@@ -33,7 +39,7 @@
     .navbar li a {
       display: block;
       color: white;
-      text-align: center;
+      text-align: left;
       padding: 14px 16px;
       text-decoration: none;
     }
@@ -43,23 +49,22 @@
     }
     .intro {
       text-align: center;
-
     }
   </style>
 </head>
 <body>
   <nav>
     <ul class="navbar">
-      <li><a href="#home">Home </a></li>
-      <li><a href="https://pargo.co.za/">Pargo Points </a></li>
-      <li><a href="#bottomsection">About </a></li>
-      <li><a href="#bottomsection">Services </a></li>
-      <li><a href="#bottomsection">Contact </a></li>
+      <li><a href="#Home">Home </a></li>
+      <li><a href="#Howitworks">How it works </a></li>
+      <li><a href="#Location">Location </a></li>
+      <li><a href="#PargoPoints">Pargo Points </a></li>
     </ul>
   </nav>
+  <div id="Home">
   <div class="intro">
-  <h1 id="centered-heading">PARGO LOCKERS</h1>
-  <img src="logo.svg" width="100" alt="logo">
+    <img src="logo.svg" width="100" alt="logo" style="margin-top: 0px;">
+  <h1 id="left-heading ">PARGO LOCKERS</h1> 
 </div>
   <p>We are introducing our new locker system that will be found at various petrol stations: </p>
   <!-- Unordered List -->
@@ -69,6 +74,8 @@
     <li>No hussle
     <li>All you need is a collection PIN</li>
   </ul>
+  </div>
+  <div id="Howitworks">
   <h2>How it works:</h2>
 
   <!-- Ordered List -->
@@ -80,8 +87,8 @@
     <li>Once the parcel is delivered, a Unique Collection Pin will be sent to your email and mobile number</li>
     <li>Your parcel will be kept safely at our lockers for a period of 10 days</li>
   </ol>
-
-
+</div>
+<div id="Location">
   <h3>Our lockers are in ALL the 9 provinces;</h3>
 
   <img src="Maps.jpg" width="300">
@@ -96,7 +103,8 @@
     <li>Mpumalanga</li>
     <li>Free State</li>
   </ul>
-
+</div>
+<div id="PargoPoints">
   <h3>For more of our products
     <a href="https://pargo.co.za/">see below </a>
   </h3>
@@ -104,7 +112,6 @@
   <li>Pargo is a smart logistics company that solves the challenges of last-mile
     distribution. We allow consumers, companies and couriers to send and receive parcels at pickup points located at
     convenient retail stores across Southern Africa.</li>
-  <li>Pargo Lockers</li>
   <li>021 447 3636; support@pargo.co.za; PARGOPOINTS (PTY) LTD 6TH FLOOR,
     62 ROELAND STREET,
     GARDENS,
@@ -113,7 +120,7 @@
   </ul>
 
   <img src="Truck.webp" width="200">
-
+</div>
 
 </body>
 
