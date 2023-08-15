@@ -3,58 +3,17 @@
 
 <head>
   <style>
-    h1 {
-      color: white;
-      font-weight: 800;
-    }
-
-    body {
-      text-align: left;
-      margin: 0;
-      padding: 0;
-      background-image: url("lockers.avif");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: left;
-      backdrop-filter: blur(5px);
-      color: white;
-      font-weight: bold;
-      padding: 0 10vw;
-  }
-
-    .navbar {
-      list-style-type: none;
-      margin: 0;
-      padding-left: 10vw;
-      overflow: hidden;
-      background-color: #333;
-      width: 100vw;
-      margin-left: -10vw;
-    }
-
-    .navbar li {
-      float: left;
-    }
-
-    .navbar li a {
-      display: block;
-      color: white;
-      text-align: left;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-
-    .navbar li a:hover {
-      background-color: #111;
-    }
-    .intro {
-      text-align: center;
+    .truck {
+      display: flex;
+      justify-content: center;
     }
   </style>
+  <link href="styles.css" rel="stylesheet">
 </head>
 <body>
   <nav>
     <ul class="navbar">
+      <li><img src="logo.svg" width="100" alt="logo" style="margin-left: 0px;"></li>
       <li><a href="#Home">Home </a></li>
       <li><a href="#Howitworks">How it works </a></li>
       <li><a href="#Location">Location </a></li>
@@ -63,7 +22,7 @@
   </nav>
   <div id="Home">
   <div class="intro">
-    <img src="logo.svg" width="100" alt="logo" style="margin-top: 0px;">
+    
   <h1 id="left-heading ">PARGO LOCKERS</h1> 
 </div>
   <p>We are introducing our new locker system that will be found at various petrol stations: </p>
@@ -91,7 +50,7 @@
 <div id="Location">
   <h3>Our lockers are in ALL the 9 provinces;</h3>
 
-  <img src="Maps.jpg" width="300">
+  <img src="Maps.jpg" width="500">
   <ul>
     <li>Gauteng</li>
     <li>Western Cape</li>
@@ -108,6 +67,9 @@
   <h3>For more of our products
     <a href="https://pargo.co.za/">see below </a>
   </h3>
+  <div class="truck">
+    <img src="Truck.webp" alt="Centered Image">
+</div>
 <ul id="bottomsection">
   <li>Pargo is a smart logistics company that solves the challenges of last-mile
     distribution. We allow consumers, companies and couriers to send and receive parcels at pickup points located at
@@ -118,8 +80,6 @@
     CAPE TOWN,
     8001</li>
   </ul>
-
-  <img src="Truck.webp" width="200">
 </div>
 
 </body>
